@@ -73,6 +73,10 @@ body{
 
 }
 
+.selected{
+    background-color: hsl(25, 97%, 53%);
+}
+
 /* button:active{
     background-color:hsl(25, 97%, 53%) ;
 } */

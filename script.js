@@ -5,25 +5,27 @@ document
   .addEventListener("click", changeColorOrange1);
 
 function changeColorOrange1() {
-  document.querySelector("#rating-btn1").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn2").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn3").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn4").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn5").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn1").style.backgroundColor = "#fb7413";
+  document.querySelector("#rating-btn1").classList.remove("selected");
+  document.querySelector("#rating-btn2").classList.remove("selected");
+  document.querySelector("#rating-btn3").classList.remove("selected");
+  document.querySelector("#rating-btn4").classList.remove("selected");
+  document.querySelector("#rating-btn5").classList.remove("selected");
+  document.querySelector("#rating-btn1").classList.add("selected");
 }
+
+// paciente.querySelector(".info-status").classList.add("peso-normal");
 
 document
   .querySelector("#rating-btn2")
   .addEventListener("click", changeColorOrange2);
 
 function changeColorOrange2() {
-  document.querySelector("#rating-btn1").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn2").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn3").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn4").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn5").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn2").style.backgroundColor = "#fb7413";
+  document.querySelector("#rating-btn1").classList.remove("selected");
+  document.querySelector("#rating-btn2").classList.remove("selected");
+  document.querySelector("#rating-btn3").classList.remove("selected");
+  document.querySelector("#rating-btn4").classList.remove("selected");
+  document.querySelector("#rating-btn5").classList.remove("selected");
+  document.querySelector("#rating-btn2").classList.add("selected");
 }
 
 document
@@ -31,12 +33,12 @@ document
   .addEventListener("click", changeColorOrange3);
 
 function changeColorOrange3() {
-  document.querySelector("#rating-btn1").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn2").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn3").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn4").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn5").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn3").style.backgroundColor = "#fb7413";
+  document.querySelector("#rating-btn1").classList.remove("selected");
+  document.querySelector("#rating-btn2").classList.remove("selected");
+  document.querySelector("#rating-btn3").classList.remove("selected");
+  document.querySelector("#rating-btn4").classList.remove("selected");
+  document.querySelector("#rating-btn5").classList.remove("selected");
+  document.querySelector("#rating-btn3").classList.add("selected");
 }
 
 document
@@ -44,12 +46,12 @@ document
   .addEventListener("click", changeColorOrange4);
 
 function changeColorOrange4() {
-  document.querySelector("#rating-btn1").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn2").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn3").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn4").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn5").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn4").style.backgroundColor = "#fb7413";
+  document.querySelector("#rating-btn1").classList.remove("selected");
+  document.querySelector("#rating-btn2").classList.remove("selected");
+  document.querySelector("#rating-btn3").classList.remove("selected");
+  document.querySelector("#rating-btn4").classList.remove("selected");
+  document.querySelector("#rating-btn5").classList.remove("selected");
+  document.querySelector("#rating-btn4").classList.add("selected");
 }
 
 document
@@ -57,12 +59,12 @@ document
   .addEventListener("click", changeColorOrange5);
 
 function changeColorOrange5() {
-  document.querySelector("#rating-btn1").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn2").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn3").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn4").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn5").style.backgroundColor = "blue";
-  document.querySelector("#rating-btn5").style.backgroundColor = "#fb7413";
+  document.querySelector("#rating-btn1").classList.remove("selected");
+  document.querySelector("#rating-btn2").classList.remove("selected");
+  document.querySelector("#rating-btn3").classList.remove("selected");
+  document.querySelector("#rating-btn4").classList.remove("selected");
+  document.querySelector("#rating-btn5").classList.remove("selected");
+  document.querySelector("#rating-btn5").classList.add("selected");
 }
 
 document
